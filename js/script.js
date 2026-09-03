@@ -20,7 +20,7 @@ navLinks.forEach(function (link) {
   });
 });
 
-// FAQ：クリックした質問だけに open 状態（aria-expanded=true）を付けて回答を表示する
+// FAQ：親要素のclassで回答を表示し、aria-expandedで開閉状態も伝える
 const faqQuestions = document.querySelectorAll('.faq-question');
 faqQuestions.forEach(function (question) {
   question.addEventListener('click', function () {
