@@ -1,0 +1,8 @@
+/* FAQの開閉状態は、質問と回答をまとめる .faq-item に付ける */
+.faq-item.is-open .faq-answer {
+  grid-template-rows: 1fr;
+}
+
+.faq-item.is-open .faq-answer p {
+  padding: 0 2px 21px;
+}

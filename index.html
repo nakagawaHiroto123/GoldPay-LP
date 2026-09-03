@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="GoldPayは、オンライン販売をはじめる事業者のためのオンライン決済サービスです。">
+  <title>GoldPay | オンライン販売をもっと身近に。</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;600;700&family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/faq.css">
+  <link rel="stylesheet" href="css/interaction.css">
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="logo" href="#top" aria-label="GoldPay トップへ">
+        <span class="logo-mark" aria-hidden="true">G</span><span>GoldPay</span>
+      </a>
+
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="global-nav" aria-label="メニューを開く">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="global-nav" id="global-nav" aria-label="メインナビゲーション">
+        <a href="#service">サービス</a>
+        <a href="#features">特長</a>
+        <a href="#flow">ご利用の流れ</a>
+        <a href="#faq">よくある質問</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- メインビジュアル：サービスの価値と最初の行動導線を伝える領域 -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow"><span></span>FOR YOUR ONLINE BUSINESS</p>
+          <h1 id="hero-title">オンライン販売を<br><em>もっと身近に。</em></h1>
+          <p class="hero-text">GoldPayは、はじめてのオンライン販売にも寄り添う<br class="pc-only">事業者向けの決済サービスです。</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#service">GoldPayについて <span aria-hidden="true">↓</span></a>
+          </div>
+          <ul class="hero-notes" aria-label="サービスの特徴">
+            <li>初期費用 0円</li><li>最短3ステップ</li><li>導入サポート</li>
+          </ul>
+        </div>
+        <div class="hero-visual" aria-label="GoldPayの管理画面をイメージしたイラスト">
+          <div class="orb orb-one"></div><div class="orb orb-two"></div>
+          <div class="dashboard-card">
+            <div class="dashboard-head"><span class="mini-logo">G</span><span class="dots">•••</span></div>
+            <p class="dashboard-label">今月の売上</p>
+            <p class="dashboard-total">¥ 486,200</p>
+            <div class="chart" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+            <div class="dashboard-footer"><span>↗ <b>12.4%</b></span><small>先月比</small></div>
+          </div>
+          <div class="payment-card"><span class="check">✓</span><div><small>Payment received</small><strong>¥ 8,800</strong></div></div>
+          <div class="security-chip">✦ &nbsp; Secure payment</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- サービス紹介 -->
+    <section class="intro section" id="service" aria-labelledby="service-title">
+      <div class="container intro-grid">
+        <div><p class="section-kicker">ABOUT GOLDPAY</p><h2 id="service-title">「売る」に集中できる<br>ちょうどいい決済サービス。</h2></div>
+        <div class="intro-copy"><p>オンラインショップ、予約販売、デジタルコンテンツ。<br>販売の形が広がる今、決済の導入はもっと分かりやすくていい。</p><p>GoldPayは、日々の販売を支える基本機能を迷わず使える形でご案内します。</p><a class="arrow-link" href="#features">サービスの特長を見る <span>→</span></a></div>
+      </div>
+    </section>
+
+    <!-- Gridで同じ性質の特長カードを整列させる -->
+    <section class="features section section-soft" id="features" aria-labelledby="features-title">
+      <div class="container">
+        <div class="section-heading"><div><p class="section-kicker">FEATURES</p><h2 id="features-title">はじめやすく続けやすい。<br>3つの理由。</h2></div><p>事業の規模や販売スタイルに合わせて、<br class="pc-only">毎日の運用をシンプルにします。</p></div>
+        <div class="feature-grid">
+          <article class="feature-card"><div class="feature-number">01</div><div class="feature-icon icon-spark">✦</div><h3>シンプルな導入設計</h3><p>必要な情報を確認しながら、導入までの流れを分かりやすくご案内。初めての方にも安心です。</p></article>
+          <article class="feature-card"><div class="feature-number">02</div><div class="feature-icon icon-chart">⌁</div><h3>見やすい売上管理</h3><p>日々の売上や取引状況をひと目で確認。忙しい業務の合間でも状況をすばやく把握できます。</p></article>
+          <article class="feature-card"><div class="feature-number">03</div><div class="feature-icon icon-heart">♡</div><h3>導入後も寄り添うサポート</h3><p>導入前の不安から日々の運用で生まれる疑問まで。スムーズなスタートを支えます。</p></article>
+        </div>
+        <p class="section-next"><a class="arrow-link" href="#flow">利用方法を見る <span>↓</span></a></p>
+      </div>
+    </section>
+
+    <section class="flow section" id="flow" aria-labelledby="flow-title">
+      <div class="container">
+        <div class="center-heading"><p class="section-kicker">HOW IT WORKS</p><h2 id="flow-title">ご利用開始まで、<br>3つのステップ。</h2><p>難しい設定は不要。必要な準備を一つずつ進められます。</p></div>
+        <ol class="step-list">
+          <li><span class="step-number">STEP 01</span><div class="step-icon">□</div><h3>サービスを知る</h3><p>GoldPayの考え方や基本機能を<br>このページでご確認ください。</p></li>
+          <li><span class="step-number">STEP 02</span><div class="step-icon">⌘</div><h3>導入を準備する</h3><p>販売スタイルに合わせて<br>必要な準備を整理していきます。</p></li>
+          <li><span class="step-number">STEP 03</span><div class="step-icon">↗</div><h3>販売をはじめる</h3><p>準備が整ったら、オンライン販売をスタート。</p></li>
+        </ol>
+        <p class="section-next"><a class="arrow-link" href="#faq">よくある質問を見る <span>↓</span></a></p>
+      </div>
+    </section>
+
+    <!-- buttonを使うことでキーボード操作にも対応したFAQ -->
+    <section class="faq section section-soft" id="faq" aria-labelledby="faq-title">
+      <div class="container faq-layout"><div><p class="section-kicker">FAQ</p><h2 id="faq-title">よくある質問</h2></div>
+        <div class="faq-list">
+          <article class="faq-item"><h3><button class="faq-question" type="button" aria-expanded="false"><span>Q. 個人でも利用できますか？</span><span class="faq-symbol" aria-hidden="true">+</span></button></h3><div class="faq-answer"><p>はい。個人事業主や小規模事業者など、オンラインで商品やサービスを販売する方を想定しています。</p></div></article>
+          <article class="faq-item"><h3><button class="faq-question" type="button" aria-expanded="false"><span>Q. 導入にはどのくらい時間がかかりますか？</span><span class="faq-symbol" aria-hidden="true">+</span></button></h3><div class="faq-answer"><p>ご利用状況や導入内容に応じて必要な準備が異なります。<br>ご自身の販売スタイルに合わせて準備を進める想定です。</p></div></article>
+          <article class="faq-item"><h3><button class="faq-question" type="button" aria-expanded="false"><span>Q. スマートフォンでも閲覧できますか？</span><span class="faq-symbol" aria-hidden="true">+</span></button></h3><div class="faq-answer"><p>はい。画面幅に応じてレイアウトを切り替えるレスポンシブデザインを実装しています。</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" aria-labelledby="contact-title"><div class="container contact-inner"><p class="section-kicker light">GOLDPAY CONCEPT</p><h2 id="contact-title">あなたの「売りたい」をもっと軽やかに。</h2><p>シンプルで分かりやすい仕組みでオンライン販売の毎日に寄り添う。<br class="pc-only">GoldPayは、そんな決済サービスを目指しています。</p></div></section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-top"><a class="logo logo-footer" href="#top"><span class="logo-mark">G</span><span>GoldPay</span></a><nav aria-label="フッターナビゲーション"><a href="#service">サービス</a><a href="#features">特長</a><a href="#flow">ご利用の流れ</a><a href="#faq">FAQ</a></nav></div><div class="container footer-bottom"><p>© 2026 GoldPay. Portfolio website.</p><p>※ GoldPayは架空のサービスです。</p></div></footer>
+  <script src="js/script.js"></script>
+</body>
+</html>

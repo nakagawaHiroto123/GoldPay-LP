@@ -1,0 +1,21 @@
+/* カードは説明のための要素。クリック可能に見えない控えめな変化に留める */
+.feature-card {
+  transition: background-color .25s, border-color .25s, box-shadow .25s;
+}
+
+.feature-card:hover {
+  transform: none;
+  background-color: #fcfefd;
+  border-color: #dce7eb;
+  box-shadow: 0 5px 14px rgba(27, 48, 69, .05);
+}
+
+/* セクションを読み終えた後に、次の内容へ進むための一つの導線 */
+.section-next {
+  margin: 34px 0 0;
+  text-align: center;
+}
+
+.section-next .arrow-link {
+  color: var(--navy);
+}
