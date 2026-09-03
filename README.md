@@ -6,6 +6,10 @@ HTML / CSS / JavaScriptを使用し、サービス紹介ページとして制作
 
 ※実際の決済、申込み、個人情報の送信機能は実装していません。
 
+## 公開ページ
+
+https://nakagawahiroto123.github.io/GoldPay-LP/
+
 ## 使用技術
 
 - HTML5
