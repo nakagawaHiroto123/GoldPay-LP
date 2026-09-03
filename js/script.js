@@ -20,6 +20,13 @@ navLinks.forEach(function (link) {
   });
 });
 
+// フッターロゴ：常にページ先頭（0px）までスクロールする
+const footerLogo = document.querySelector('.footer-logo');
+footerLogo.addEventListener('click', function (event) {
+  event.preventDefault();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+
 // FAQ：親要素のclassで回答を表示し、aria-expandedで開閉状態も伝える
 const faqQuestions = document.querySelectorAll('.faq-question');
 faqQuestions.forEach(function (question) {
